@@ -12,7 +12,7 @@ namespace Tyuiu.VyazovES.Sprint3.Task4.V17.Lib
             {
                 if (x == 0)
                 {
-                    break;
+                    continue;
                 }
 
                 y = Math.Cos(x) / Math.Sin(x);
@@ -20,7 +20,7 @@ namespace Tyuiu.VyazovES.Sprint3.Task4.V17.Lib
             }
             while (x < b);
 
-            return Math.Pow(y,3);
+            return y = Math.Pow(y,3);
         }
     }
 }
