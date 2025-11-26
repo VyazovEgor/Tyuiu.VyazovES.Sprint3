@@ -12,14 +12,14 @@ namespace Tyuiu.VyazovES.Sprint3.Task4.V17.Lib
             {
                 if (x == 0)
                 {
-                    continue; // Пропускаем x = 0 вместо прерывания
+                    break; // Пропускаем x = 0 вместо прерывания
                 }
 
                 double y = Math.Cos(x) / Math.Sin(x);
-                product *= y;
+                product = product * y;
             }
-
-            return Math.Pow(product,3);
+            product = Math.Round(product, 3);
+            return product;
         }
     }
 }
