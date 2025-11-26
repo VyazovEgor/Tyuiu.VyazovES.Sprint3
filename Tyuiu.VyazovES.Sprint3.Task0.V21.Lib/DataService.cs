@@ -14,7 +14,7 @@ namespace Tyuiu.VyazovES.Sprint3.Task0.V21.Lib
                 S += (Math.Pow(a, k) + 0.25) * Math.Sin(k);
             }
 
-            return S;
+            return Math.Round(S, 3);
         }
     }
 }

@@ -10,7 +10,7 @@ int k2 = Convert.ToInt32(Console.ReadLine());
 s = ds.GetSumSeries(a, k1, k2);
 
 
-Console.WriteLine(Math.Round(s, 3));
+Console.WriteLine(s);
 
 
 Console.ReadKey();
