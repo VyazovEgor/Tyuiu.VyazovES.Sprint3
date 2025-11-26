@@ -18,9 +18,9 @@ namespace Tyuiu.VyazovES.Sprint3.Task4.V17.Lib
                 y = Math.Cos(x) / Math.Sin(x);
                 x++;
             }
-            while (x <= b);
+            while (x < b);
 
-            return y;
+            return Math.Pow(y,3);
         }
     }
 }
