@@ -11,7 +11,7 @@ namespace Tyuiu.VyazovES.Sprint3.Task1.V18.Lib
 
             while (i1 <= i2)
             {
-                S += Math.Sin(i1) * 0.124;
+                S += Math.Sin(i1) * 0.0625;
                 i1++;
             }
 
