@@ -11,7 +11,7 @@ namespace Tyuiu.VyazovES.Sprint3.Task0.V21.Lib
 
             for (int k = 1; k <= 13; k++)
             {
-                S += ((a + k) * Math.Sin(k));
+                S += (Math.Pow(a, k) + 0.25) * Math.Sin(k);
             }
 
             return S;
