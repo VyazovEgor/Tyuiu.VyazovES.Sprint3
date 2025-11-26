@@ -6,21 +6,20 @@ namespace Tyuiu.VyazovES.Sprint3.Task4.V17.Lib
     {
         public double Calculate(int a, int b)
         {
-            int x = a;
-            double y = 0;
-            do
+            double product = 1;
+
+            for (int x = a; x <= b; x++)
             {
                 if (x == 0)
                 {
-                    break;
+                    continue; // Пропускаем x = 0 вместо прерывания
                 }
 
-                y = Math.Cos(x) / Math.Sin(x);
-                x++;
+                double y = Math.Cos(x) / Math.Sin(x);
+                product *= y;
             }
-            while (x <= b);
 
-            return y;
+            return Math.Pow(product,3);
         }
     }
 }
