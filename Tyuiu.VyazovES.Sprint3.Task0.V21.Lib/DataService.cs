@@ -9,11 +9,9 @@ namespace Tyuiu.VyazovES.Sprint3.Task0.V21.Lib
             double S = 0;
 
 
-            for (int k = k1; k <= k2; k++)
+            for (int k = 1; k <= 13; k++)
             {
-
-
-                S += (a + Math.Sin(k));
+                S += ((a + k) * Math.Sin(k));
             }
 
             return S;
